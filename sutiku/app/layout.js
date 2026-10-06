@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Sutiku Sushi',
+  title: 'Suttiku Sushi',
   description: 'Fresh sushi, made to order in Lebanon.'
 }
 

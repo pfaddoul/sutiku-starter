@@ -12,7 +12,7 @@ function AdminContent(){
   const update=(id,key,val)=>setMenu(menu.map(x=>x.id===id?{...x,[key]:key==='price'?Number(val):val}:x))
   const updateOrder=(id,status)=>setOrders(orders.map(o=>o.id===id?{...o,status}:o))
   return <main className="adminPage">
-    <aside className="sidebar"><h2>SUTIKU</h2><button onClick={()=>setTab('menu')}>Menu</button><button onClick={()=>setTab('orders')}>Orders</button><Link href="/">View website</Link></aside>
+    <aside className="sidebar"><h2>Suttiku</h2><button onClick={()=>setTab('menu')}>Menu</button><button onClick={()=>setTab('orders')}>Orders</button><Link href="/">View website</Link></aside>
     <section className="adminContent">
       <div className="adminTop"><div><p className="eyebrow">ADMIN</p><h1>{tab==='menu'?'Menu management':'Orders'}</h1></div></div>
       {tab==='menu' ? <>

@@ -10,7 +10,7 @@ function HomeContent() {
   return (
     <main>
       <header className="hero">
-        <nav><strong>SUTIKU</strong><div><a href="#menu">Menu</a><Link href="/admin">Admin</Link></div></nav>
+        <nav><strong>SUTTIKU</strong><div><a href="#menu">Menu</a><Link href="/admin">Admin</Link></div></nav>
         <div className="heroCopy">
           <p className="eyebrow">SUSHI • LEBANON</p>
           <h1>Fresh sushi,<br/>made to order.</h1>
