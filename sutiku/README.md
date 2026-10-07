@@ -1,4 +1,4 @@
-# Sutiku Sushi
+# Suttiku Sushi
 
 Starter ordering website for a sushi restaurant in Lebanon.
 

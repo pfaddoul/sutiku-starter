@@ -9,7 +9,7 @@ function CheckoutContent(){
   const [done, setDone] = useState(null)
   const [form, setForm] = useState({ name:'', phone:'', email:'', address:'', landmark:'', notes:'', payment:'cash' })
 
-  if(done) return <main className="checkoutPage"><div className="success"><div className="bigIcon">✓</div><h1>Order received!</h1><p>Thank you, {done.customer.name}. Your order <strong>{done.id}</strong> was submitted successfully.</p><p>Payment: <strong>{done.customer.payment === 'cash' ? 'Cash on delivery' : 'Online payment'}</strong></p><p>In production, Sutiku will send notifications by email, SMS and WhatsApp here.</p><Link className="primary" href="/">Back to menu</Link></div></main>
+  if(done) return <main className="checkoutPage"><div className="success"><div className="bigIcon">✓</div><h1>Order received!</h1><p>Thank you, {done.customer.name}. Your order <strong>{done.id}</strong> was submitted successfully.</p><p>Payment: <strong>{done.customer.payment === 'cash' ? 'Cash on delivery' : 'Online payment'}</strong></p><p>In production, suttiku will send notifications by email, SMS and WhatsApp here.</p><Link className="primary" href="/">Back to menu</Link></div></main>
 
   if(!cart.length) return <main className="checkoutPage"><div className="success"><h1>Your cart is empty</h1><Link className="primary" href="/">Browse menu</Link></div></main>
 
